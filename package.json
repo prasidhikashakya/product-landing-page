@@ -1,0 +1,26 @@
+{
+  "name": "elure-beauty-order-funnel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "typecheck": "tsc --noEmit", "sheet:format": "node scripts/format-google-sheet.cjs" },
+  "dependencies": {
+    "googleapis": "^188.0.0",
+    "lucide-react": "^0.468.0",
+    "next": "^16.4.2",
+    "nodemailer": "^10.2.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.10.5",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.3"
+  }
+}
